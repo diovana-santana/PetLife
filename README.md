@@ -24,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 Durante o desenvolvimento, pude aprofundar meus conhecimentos em:
 
-* Estrutura HTML Semântica: Utilizando tags como <header>, <main>, <section> e <footer>
+* Estrutura HTML Semântica: Utilizando tags como <header>, '<main>', '<section>' e "<footer>".
 * Manipulação do DOM: Utilizando JavaScript para criar uma experiência de usuário mais dinâmica e interativa.
 * Versionamento com Git/GitHub: Adotando um fluxo de trabalho básico para commits e publicação do site com GitHub Pages.
 
