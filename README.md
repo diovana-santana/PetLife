@@ -2,7 +2,7 @@ PetLife - Site para uma Clínica Veterinária
 
 **Adicionar um print da tela do site
 
-Este é o projeto de um site institucional para a "VetCare", uma clínica veterinária fictícia. Ele foi desenvolvido como projeto do curso **Start na Programação** da [OneBitCode](https://onebitcode.com/), com o objetivo de consolidar os conhecimentos em tecnologias front-end essenciais.
+Este é o projeto de um site institucional para a "PetLife", uma clínica veterinária fictícia. Ele foi desenvolvido como projeto do curso Start na Programação da [OneBitCode](https://onebitcode.com/), com o objetivo de consolidar os conhecimentos em tecnologias front-end essenciais.
 
 🚀 Sobre o Projeto
 
@@ -24,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 Durante o desenvolvimento, pude aprofundar meus conhecimentos em:
 
-* Estrutura HTML Semântica: Utilizando tags como `<header>`, `<main>`, `<section>` e `<footer>`
+* Estrutura HTML Semântica: Utilizando tags como `<header>`, `<main>` e `<section>`
 * Manipulação do DOM: Utilizando JavaScript para criar uma experiência de usuário mais dinâmica e interativa.
 * Versionamento com Git/GitHub: Adotando um fluxo de trabalho básico para commits e publicação do site com GitHub Pages.
 
