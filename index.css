@@ -1,0 +1,184 @@
+/*Cor	Amostra	Código Hexadecimal
+Fundo Principal	Branco	■	#FFFFFF
+Texto de Parágrafos	Grafite Escuro	■	#362646
+Títulos Principais (H1, H2)	Roxo	■	#6C4B8C
+Links e Subtítulos	Verde Água	■	#33B5A9
+Botões e Destaques (Ação)	Rosa Vibrante	■	#E63B8F
+Ícones ou Detalhes	Dourado	■	#F6A624
+Bordas e Fundos Sutis	Cinza Claro	■	#8E9BAE
+ */
+
+* {
+  box-sizing: border-box;
+  font-family: "Mountserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #362646;
+}
+/* Layout Geral do Cabeçalho */
+header {
+  background-color: #33b5a9;
+  display: flex;
+  align-items: center; /* Alinha verticalmente o logo e o menu */
+  justify-content: space-between; /* Empurra o logo para a esquerda e o menu para a direita */
+  padding: 10px 40px; /* Espaçamento interno (15px em cima/baixo, 40px nas laterais) */
+}
+
+/* Estilo da Logo - AQUI CONTROLAMOS O TAMANHO */
+header img {
+  max-height: 130px; /* Define a altura máxima do logo. Ajuste este valor como quiser! */
+  width: auto; /* A largura se ajusta automaticamente para não distorcer a imagem */
+}
+
+/* Estilo dos Links do Menu de Navegação */
+header nav a {
+  color: #ffffff; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 18px; /* Tamanho da fonte mais legível */
+  font-weight: bold; /* Mantém o negrito */
+  margin-left: 25px; /* Cria um espaço entre os links do menu */
+  transition: color 0.3s ease; /* Adiciona um efeito suave na mudança de cor */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+header nav a:hover {
+  color: #f1f1f1; /* Clareia um pouco a cor para dar um feedback visual */
+}
+
+#inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 80px 128px 80px;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.paragrafo {
+  line-height: 150%;
+  margin-bottom: 30px;
+}
+
+.botao {
+  background-color: #e63b8f;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+.botao-transparente {
+  background-color: transparent;
+  color: #e63b8f;
+  padding: 16px 32px;
+  text-underline-offset: 4px;
+}
+
+#clinica {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+#clinica li {
+  margin-bottom: 16px;
+  margin-left: 32px;
+}
+
+#farmacia {
+  padding: 64px 80px;
+  text-align: center;
+}
+
+#farmacia img {
+  margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+#duvidas {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+}
+
+.duvida {
+  position: relative;
+}
+
+.duvida h3 {
+  border: 2px solid #e63b8f;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 18px;
+}
+
+.duvida img {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.duvida .paragrafo {
+  border-right: 1px solid #e63b8f;
+  border-bottom: 1px solid #e63b8f;
+  border-left: 1px solid #e63b8f;
+  border-radius: 8 8 8px 80px;
+  margin-top: -8px;
+  padding: 24px;
+}
+
+footer {
+  background-color: rgba(51, 181, 169, 1);
+  display: flex;
+  gap: 80px;
+  padding: 64px 80px;
+}
+
+footer img,
+footer .titulo {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+footer nav a {
+  color: #362646;
+  display: block;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+footer p {
+  margin-bottom: 16px;
+  max-width: 350px;
+}
+footer p a {
+  color: #362646;
+  text-decoration: none;
+}
+
+#copyright {
+  background-color: #26887e;
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+#copyright a {
+  color: ;
+}
