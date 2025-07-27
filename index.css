@@ -1,12 +1,17 @@
-/*Cor	Amostra	Código Hexadecimal
-Fundo Principal	Branco	■	#FFFFFF
-Texto de Parágrafos	Grafite Escuro	■	#362646
-Títulos Principais (H1, H2)	Roxo	■	#6C4B8C
-Links e Subtítulos	Verde Água	■	#33B5A9
-Botões e Destaques (Ação)	Rosa Vibrante	■	#E63B8F
-Ícones ou Detalhes	Dourado	■	#F6A624
-Bordas e Fundos Sutis	Cinza Claro	■	#8E9BAE
- */
+:root {
+  --cor-fundo: #ffffff;
+  --cor-texto: #362646;
+  --cor-titulo-roxo: #6c4b8c;
+  --cor-link-verde: #33b5a9;
+  --cor-botao-rosa: #e63b8f;
+  --cor-detalhe-dourado: #f6a624;
+  --cor-borda-cinza: #8e9bae;
+}
+
+main section img {
+  max-width: 100%; /* Garante que a imagem nunca ultrapasse a largura do seu contêiner */
+  height: auto; /* A altura se ajusta automaticamente */
+}
 
 * {
   box-sizing: border-box;
@@ -131,14 +136,28 @@ h2 {
   position: absolute;
   top: 10px;
   right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.duvida.ativa img {
+  transform: rotate(180deg);
 }
 
 .duvida .paragrafo {
   border-right: 1px solid #e63b8f;
   border-bottom: 1px solid #e63b8f;
   border-left: 1px solid #e63b8f;
-  border-radius: 8 8 8px 80px;
+  border-radius: 0 0 8px 8px;
   margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.duvida.ativa .paragrafo {
+  height: fit-content;
+  opacity: 1;
   padding: 24px;
 }
 
@@ -180,5 +199,5 @@ footer p a {
 }
 
 #copyright a {
-  color: ;
+  color: #ffffff;
 }
